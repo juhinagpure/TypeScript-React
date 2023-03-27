@@ -2,9 +2,14 @@ import './App.css';
 import { Greet } from './components/Greet';
 
 function App() {
+  const personName = {
+    first :'Bruce',
+    last: 'Wayne'
+  }
   return (
     <div className="App">
       <Greet name = 'vishwas' messageCount={20} isLoggedIn={false}/>
+      <Person name={personName}/>
     </div>
   )
 }
