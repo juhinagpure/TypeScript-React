@@ -1,5 +1,6 @@
 import './App.css';
-import { Greet } from './components/Greet';
+import { Greet } from './components/Greet'
+import { Person } from './components/Person'
 
 function App() {
   const personName = {
@@ -9,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Greet name = 'vishwas' messageCount={20} isLoggedIn={false}/>
-      <Person name={personName}/>
+      <Person name={personName} />
     </div>
   )
 }
