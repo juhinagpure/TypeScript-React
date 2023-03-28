@@ -8,7 +8,8 @@ type PersonProps = {
 export const Person =(props:PersonProps) => {
     return (
         <div>
-            {props.name.first} {props.name.last}
+            {props.name.first}{props.name.last} 
         </div>
     )
 }
+//objects

@@ -16,3 +16,4 @@ export const Greet = (props:GreetProps) => {
         </div>
     )
 }
+//number and boolean type
