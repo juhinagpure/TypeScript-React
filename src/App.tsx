@@ -1,5 +1,7 @@
 import './App.css';
+import{ Greet} from './components/Greet'
 import { Heading } from './components/heading';
+import { Oscar } from './components/Oscar';
 import {Status} from './components/Status'
 
 
@@ -35,6 +37,11 @@ return(
  <div className='App'>
 <Status status='loading'/>
 <Heading>Placeholder text</Heading>
+<Oscar>
+  <Heading>Oscar goes to Leonardo Dicpario!</Heading>
+</Oscar>
+<Greet name = 'vishwas' isLoggedIn={false}/>
+
 </div>
 )
 }
