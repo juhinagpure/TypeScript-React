@@ -1,5 +1,5 @@
 import './App.css'
-import { Input } from './components/Input'
+import { Input   } from './components/Input'
 
 function App (){
   return(
@@ -8,8 +8,6 @@ function App (){
     </div>
   )
 }
-
-
 
 
 export default App
