@@ -10,7 +10,7 @@ export const LoggedIn = () => {
         <div>
             <button onClick={handleLogin}>Login</button>
             <button onClick={handleLogout}>Logout</button>
-            <div>User is logged in/logged out</div>
+            <div>User is {isLoggedIn ? 'logged in' : 'logged out'}</div>
         </div>
     )
 }
