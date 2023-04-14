@@ -1,13 +1,13 @@
-import React, {createContext} from "react"
-import {theme} from "./theme"
+import { useContext } from "react"
+import {ThemeContext} from './ThemeContext'
 
 
-type ThemeContextProviderProps = {
-    children : React.ReactNode
-}
-
-const ThemeContext = createContext(theme)
-
-export const ThemeContextProvider = ({children}: ThemeContextProviderProps) =>{
-return <ThemeContext.Provider>{children}</ThemeContext.Provider>
+export const Box = () => {
+    const theme = useContext(ThemeContext)
+    return(
+        <div 
+style={{backgroundColor:theme.primary.main,color:theme.primary.text}}
+>Theme context
+        </div>
+    )
 }
