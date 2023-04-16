@@ -1,12 +1,12 @@
 import "./App.css";
-import Greet from "./components/Greet";
-import Heading from "./components/Heading";
-import Oscar from "./components/Oscar";
-import Person from "./components/Person";
-import PersonList from "./components/PersonList";
-import Status from "./components/Status";
-import { ThemeContextProvider } from './components/context/ThemeContext'
-import { Box } from "./components/context/Box";
+// import Greet from "./components/Greet";
+// import Heading from "./components/Heading";
+// import Oscar from "./components/Oscar";
+// import Person from "./components/Person";
+// import PersonList from "./components/PersonList";
+// import Status from "./components/Status";
+// import { ThemeContextProvider } from './components/context/ThemeContext'
+// import { Box } from "./components/context/Box";
 
 // function App() {
 //   const personName = {
@@ -52,13 +52,17 @@ import { Box } from "./components/context/Box";
 //   );
 // }
 
+// function App() {
+//   return (<div className="App">
+// <ThemeContextProvider>
+//   <Box />
+// </ThemeContextProvider>
+//   </div>
+//   )
+// }
+
 function App() {
-  return (<div className="App">
-<ThemeContextProvider>
-  <Box />
-</ThemeContextProvider>
-  </div>
-  )
+  return <div className="App"></div>
 }
 
 export default App;
