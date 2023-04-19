@@ -1,12 +1,14 @@
+
 import "./App.css";
-// import Greet from "./components/Greet";
-// import Heading from "./components/Heading";
-// import Oscar from "./components/Oscar";
-// import Person from "./components/Person";
-// import PersonList from "./components/PersonList";
-// import Status from "./components/Status";
-// import { ThemeContextProvider } from './components/context/ThemeContext'
-// import { Box } from "./components/context/Box";
+
+import Greet from "./components/Greet";
+import Heading from "./components/Heading";
+import Oscar from "./components/Oscar";
+import Person from "./components/Person";
+import PersonList from "./components/PersonList";
+import Status from "./components/Status";
+import { ThemeContextProvider } from './components/context/ThemeContext'
+import { Box } from "./components/context/Box";
 
 // function App() {
 //   const personName = {
@@ -61,8 +63,6 @@ import "./App.css";
 //   )
 // }
 
-function App() {
-  return <div className="App"></div>
-}
+
 
 export default App;
