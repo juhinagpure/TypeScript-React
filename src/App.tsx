@@ -1,6 +1,7 @@
-import { UserContextProvider } from "./components/context/UserContext";
-import { User } from "./components/context/User";
+// import { UserContextProvider } from "./components/context/UserContext";
+// import { User } from "./components/context/User";
 import "./App.css";
+import { Counter } from "./components/class/Counter";
 
 // import Greet from "./components/Greet";
 // import Heading from "./components/Heading";
@@ -55,14 +56,19 @@ import "./App.css";
 //   );
 // }
 
-function App() {
-    return ( <div className="App">
-        <UserContextProvider>
-            <User />
-        </UserContextProvider>
-    </div>
-    )
-}
+// function App() {
+//     return ( <div className="App">
+//         <UserContextProvider>
+//             <User />
+//         </UserContextProvider>
+//     </div>
+//     )
+// }
 
+function App () {
+    return <div className="App">
+        <Counter message="The count value is "/>
+    </div>
+}
 
 export default App;
