@@ -1,7 +1,10 @@
 // import { UserContextProvider } from "./components/context/UserContext";
 // import { User } from "./components/context/User";
 import "./App.css";
-import { Counter } from "./components/class/Counter";
+import { Private } from "./components/auth/Private";
+import { Profile } from "./components/auth/Profile";
+// import { Counter } from "./components/class/Counter";
+
 
 // import Greet from "./components/Greet";
 // import Heading from "./components/Heading";
@@ -65,9 +68,15 @@ import { Counter } from "./components/class/Counter";
 //     )
 // }
 
-function App () {
+// function App () {
+//     return <div className="App">
+//         <Counter message="The count value is "/>
+//     </div>
+// }
+
+function App() {
     return <div className="App">
-        <Counter message="The count value is "/>
+        <Private isLoggedIn={true} component={Profile} />
     </div>
 }
 
