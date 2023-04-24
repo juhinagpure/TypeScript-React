@@ -1,9 +1,10 @@
 // import { UserContextProvider } from "./components/context/UserContext";
 // import { User } from "./components/context/User";
-import "./App.css";
-import { Private } from "./components/auth/Private";
-import { Profile } from "./components/auth/Profile";
+// import { Private } from "./components/auth/Private";
+// import { Profile } from "./components/auth/Profile";
 // import { Counter } from "./components/class/Counter";
+import { List } from "./components/generics/List";
+import './App.css'
 
 
 // import Greet from "./components/Greet";
@@ -74,10 +75,9 @@ import { Profile } from "./components/auth/Profile";
 //     </div>
 // }
 
-function App() {
-    return <div className="App">
-        <Private isLoggedIn={true} component={Profile} />
-    </div>
-}
+// function App() {
+//     return <div className="App">
+//         <Private isLoggedIn={true} component={Profile} />
+//     </div>
+// }
 
-export default App;
