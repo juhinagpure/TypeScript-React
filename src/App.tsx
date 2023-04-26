@@ -81,3 +81,14 @@ import './App.css'
 //     </div>
 // }
 
+function App () {
+    return (
+        <div className="App">
+            < List 
+            items={['Batman','Superman','Wonder Woman']}
+            onClick={(item) => console.log(item)} />
+        </div>
+    )
+}
+
+export default App;
