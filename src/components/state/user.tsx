@@ -15,6 +15,7 @@ export const User = () => {
     }
     // const handleLogout =() => {
     //     setUser(null)
+    
     return (
         <div>
             <button onClick={handleLogin}>Login</button>
